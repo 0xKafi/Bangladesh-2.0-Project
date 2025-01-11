@@ -178,7 +178,7 @@ nav button{
     padding: 35px;
 }
 .quote-box .quote{
-    background-image: url(./assets/quote-bg.png);
+    background-image: url(assets/quote-bg.png);
     background-repeat: no-repeat;
     background-size: 50px;
     padding: 20px 0;
