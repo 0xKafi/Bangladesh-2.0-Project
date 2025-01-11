@@ -27,7 +27,7 @@ nav button{
     font-size: 14px;
     font-weight: 600;
     box-sizing: border-box;
-    border: 1px solid rgb(0, 106, 80);
+    border: 2px solid rgb(0, 106, 80);
     border-radius: 7px;
     background-color: rgb(245, 245, 245);
     color: rgb(0, 106, 80);
@@ -350,46 +350,6 @@ nav button{
     text-align: center;
 }
 
-/* hover effect section */
-
-.donate-section .donate-btn button:hover{
-    background-color: rgb(198, 228, 214);
-}
-.donate-section .submit-btn button:hover{
-    color: rgb(0, 106, 80);
-    border: 1px solid rgb(0, 106, 80);
-    background-color: rgb(245, 245, 245)
-}
-.news-btn:hover{
-    color: rgb(0, 106, 80);
-    border: 1px solid rgb(0, 106, 80);
-    background-color: white;
-}
-.hero-text button:hover{
-    background-color: rgb(198, 228, 214);
-    border: 2px solid rgb(0, 106, 80);
-    color: rgb(0, 106, 80);
-}
-nav button:hover{
-    background-color:rgb(0, 106, 80);
-    color: white;
-}
-.card-section .btn1:hover{
-    border: 1px solid rgb(84, 144, 245);
-    background: rgba(84, 144, 245, 0.2);
-    color: rgb(84, 144, 245);;
-}
-.card-section .btn3:hover{
-    border: 1px solid rgb(255, 194, 57);
-    background: rgb(247, 235, 207);
-    color: rgb(255, 194, 57);
-}
-.card-section .btn2:hover{
-    border: 1px solid rgb(9, 161, 92);
-    background: rgb(198, 228, 214);
-    color: rgb(9, 161, 92);
-}
-
 /* newsletter-section */
 
 .newsletter{
@@ -454,6 +414,8 @@ nav button:hover{
     width: 600px;
 }
 
+/* footer-section */
+
 footer{
     height: 100px;
     text-align: center;
@@ -470,4 +432,48 @@ footer .social-media{
     align-items: center;
     width: 150px;
     margin: 30px auto;
+}
+/* hover effect section */
+
+.donate-section .donate-btn button:hover{
+    background-color: rgb(198, 228, 214);
+}
+.donate-section .submit-btn button:hover{
+    color: rgb(0, 106, 80);
+    border: 2px solid rgb(0, 106, 80);
+    background-color: rgb(245, 245, 245)
+}
+.news-btn:hover{
+    color: rgb(0, 106, 80);
+    border: 2px solid rgb(0, 106, 80);
+    background-color: white;
+}
+.hero-text button:hover{
+    background-color: rgb(198, 228, 214);
+    border: 2px solid rgb(0, 106, 80);
+    color: rgb(0, 106, 80);
+}
+nav button:hover{
+    background-color:rgb(0, 106, 80);
+    color: white;
+}
+.card-section .btn1:hover{
+    border: 2px solid rgb(84, 144, 245);
+    background: rgba(84, 144, 245, 0.2);
+    color: rgb(84, 144, 245);;
+}
+.card-section .btn3:hover{
+    border: 2px solid rgb(255, 194, 57);
+    background: rgb(247, 235, 207);
+    color: rgb(255, 194, 57);
+}
+.card-section .btn2:hover{
+    border: 2px solid rgb(9, 161, 92);
+    background: rgb(198, 228, 214);
+    color: rgb(9, 161, 92);
+}
+.newsletter button:hover{
+    background-color: rgb(198, 228, 214);
+    border: 2px solid rgb(0, 106, 80);
+    color: rgb(0, 106, 80);
 }
