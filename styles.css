@@ -277,10 +277,10 @@ nav button{
 }
 input{
     border: none;
-    width: 70%;
+    width: 72%;
     height: 50px;
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 4px;
     border-bottom: 1px solid rgba(14, 14, 14, 0.15);
     background: rgb(255, 255, 255);
     text-align: center;
@@ -289,8 +289,8 @@ input{
     color : rgba(14, 14, 14, 0.3)
 }
 .donate-section .submit-btn button{
-    width: 120px;
-    height: 45px;
+    width: 140px;
+    height: 50px;
     background: rgb(0, 106, 80);
     border: none;
     border-radius: 9px;
@@ -299,4 +299,41 @@ input{
     font-size: 13px;
     margin: 20px 0;
     text-align: center;
+}
+.donate-section .donate-btn button:hover{
+    background-color: rgb(198, 228, 214);
+}
+.donate-section .submit-btn button:hover{
+    color: rgb(0, 106, 80);
+    border: 1px solid rgb(0, 106, 80);
+    background-color: rgb(245, 245, 245)
+}
+.news-btn:hover{
+    color: rgb(0, 106, 80);
+    border: 1px solid rgb(0, 106, 80);
+    background-color: white;
+}
+.hero-text button:hover{
+    background-color: rgb(198, 228, 214);
+    border: 2px solid rgb(0, 106, 80);
+    color: rgb(0, 106, 80);
+}
+nav button:hover{
+    background-color:rgb(0, 106, 80);
+    color: white;
+}
+.card-section .btn1:hover{
+    border: 1px solid rgb(84, 144, 245);
+    background: rgba(84, 144, 245, 0.2);
+    color: rgb(84, 144, 245);;
+}
+.card-section .btn3:hover{
+    border: 1px solid rgb(255, 194, 57);
+    background: rgb(247, 235, 207);
+    color: rgb(255, 194, 57);
+}
+.card-section .btn2:hover{
+    border: 1px solid rgb(9, 161, 92);
+    background: rgb(198, 228, 214);
+    color: rgb(9, 161, 92);
 }
