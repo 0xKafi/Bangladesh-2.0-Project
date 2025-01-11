@@ -9,6 +9,8 @@ body{
    font-family: Fira Sans, Arial, Helvetica, sans-serif;
 }
 
+/* navbar-section */
+
 nav{
     height: 80px;
     width: 1280px;
@@ -30,6 +32,9 @@ nav button{
     background-color: rgb(245, 245, 245);
     color: rgb(0, 106, 80);
 }
+
+/* hero-section */
+
 
 .hero-section{
     width: 1280px;
@@ -81,9 +86,12 @@ nav button{
 .hero-img img{
     height: 320px;
 }
+
+/* card-section */
+
 .card-section{
     width: 1280px;
-    height: 612px;
+    height: 752px;
     margin: auto 128px;
     gap : 20;
 }
@@ -91,6 +99,9 @@ nav button{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.card h3{
+    color : rgba(14, 14, 14, 0.8)
 }
 .card{
     width: 400px;
@@ -156,6 +167,38 @@ nav button{
     background-color: rgb(9, 161, 92)
 }
 
+/* quote-section */
+.card-section .quote-box{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    height: 200px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 18px;
+    padding: 35px;
+}
+.quote-box .quote{
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    padding: 20px 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);;
+}
+.quote-box p{
+    padding-top: 5px;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);;
+}
+
+.quote-box h4{
+    color : rgba(14, 14, 14, 0.8)
+}
+
+/* news-section */
+
 .news-section{
     margin: 0 128px;
 }
@@ -200,6 +243,9 @@ nav button{
     justify-content: space-evenly;
     align-items: flex-start;
 }
+.news-card-text h1{
+    color : rgba(14, 14, 14, 0.8)
+}
 .news-btn{
     width: 110px;
     height: 40px;
@@ -229,6 +275,8 @@ nav button{
     letter-spacing: 0%;
     text-align: left;
 }
+
+/* donate-section */
 
 .donate-section{
     margin: 50px 128px;
@@ -269,6 +317,7 @@ nav button{
     border: none;
     border-radius: 11px;
     background-color: white;
+    color : rgba(14, 14, 14, 0.8);
     font-size: 30px;
     font-weight: 700;
     font-family: fira sans;
@@ -300,6 +349,9 @@ input{
     margin: 20px 0;
     text-align: center;
 }
+
+/* hover effect section */
+
 .donate-section .donate-btn button:hover{
     background-color: rgb(198, 228, 214);
 }
