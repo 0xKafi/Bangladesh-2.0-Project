@@ -324,7 +324,7 @@ nav button{
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
-input{
+.donate-section input{
     border: none;
     width: 72%;
     height: 50px;
@@ -388,4 +388,68 @@ nav button:hover{
     border: 1px solid rgb(9, 161, 92);
     background: rgb(198, 228, 214);
     color: rgb(9, 161, 92);
+}
+
+/* newsletter-section */
+
+.newsletter{
+    width: 1280px;
+    height: 380px;
+    border-radius: 18px;
+    box-sizing: border-box;
+    background: rgb(198, 228, 214);
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+.newsletter .title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: black;
+}
+.newsletter .subscibe{
+    border: none;
+    height: 50px;
+    display: flex;
+    margin: 20px 0;
+}
+.newsletter input{
+    border: none;
+    width: 600px;
+    height: 50px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    padding:0 40px;
+    font-family: fira sans;
+    font-size: 16px;
+    color : rgba(14, 14, 14, 0.3);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.newsletter button{
+    border: none;
+    width: 150px;
+    height: 49px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.newsletter p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 600px;
 }
